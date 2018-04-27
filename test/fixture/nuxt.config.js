@@ -7,5 +7,10 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@']
+  modules: ['@@'],
+  sitemap: {
+    routes: [
+      '/'
+    ]
+  }
 }
