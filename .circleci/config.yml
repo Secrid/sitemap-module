@@ -28,7 +28,3 @@ jobs:
           name: Tests
           command: yarn test
 
-      # Coverage
-      - run:
-          name: Coverage
-          command: yarn codecov
